@@ -314,7 +314,7 @@ p{
 	color: #B0B0B0;
 	font-size:14px ;
 }
-.bottom-l,.bottom-r{
+.buttom-l,.buttom-r{
 	/*position: absolute;
 	top: 40%;*/
 	margin-top: 100px;
@@ -322,10 +322,10 @@ p{
 	font-size: 35px !important;
 	float: left;
 }
-.bottom-l{
+.buttom-l{
 	/*float: ;*/
 }
-.bottom-r{
+.buttom-r{
 	right: 15%;
 	
 }

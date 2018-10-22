@@ -19,14 +19,14 @@ $(document).ready(function(){
 		$('.step-num').css("right",i+"px");
 		};
 	},1800);
-	$('.bottom-r').click(function(){
+	$('.buttom-r').click(function(){
 		i+=235;
 		if(i>=235*(l-5)){
 			i=235*(l-5);
 		}
 		$('.step-num').css("right",i+"px");
 	});
-	$('.bottom-l').click(function(){
+	$('.buttom-l').click(function(){
 		i-=235;
 		if(i<=0){
 			i=0;
@@ -42,8 +42,7 @@ $(function() {
 	
 	$('.scroll-content').eq(0).show().siblings().hide();
 		Show();
-		
-	showtimer();
+		showtimer();
 	
 	$('.tab').hover(function(){
 		k = $(this).index();
